@@ -71,7 +71,7 @@ body {
 }
 
 .resume .title {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .resume .resume_left .bold {
@@ -84,7 +84,7 @@ body {
 }
 
 .resume .resume_item {
-  padding: 25px 0;
+  padding: 10px 0;
   border-bottom: 2px solid #ddf6ff;
 }
 
@@ -157,7 +157,7 @@ body {
 .resume .resume_right {
   width: 520px;
   background: #fff;
-  padding: 25px;
+  padding: 0 25px 0 25px;
 }
 
 .resume .resume_right .bold {
@@ -211,41 +211,12 @@ body {
   background: #0bb5f4;
 }
 
-.resume .resume_right .resume_hobby ul {
-  display: flex;
-  justify-content: left;
+.resume .resume_right ul li {
+  font-size: 0.75rem;
 }
-
-.resume .resume_right .resume_hobby ul li:first-child {
-  margin-left: 0;
-}
-.resume .resume_right .resume_hobby ul li {
-  width: 80px;
-  height: 80px;
-  border: 2px solid #0bb5f4;
-  border-radius: 50%;
-  position: relative;
-  color: #0bb5f4;
-  
-  margin-left: 50px;
-}
-
-.resume .resume_right .resume_hobby ul li i {
-  font-size: 30px;
-}
-
-.resume .resume_right .resume_hobby ul li:before {
-  content: "";
-  position: absolute;
-  top: 40px;
-  right: -52px;
-  width: 50px;
-  height: 2px;
-  background: #0bb5f4;
-}
-
-.resume .resume_right .resume_hobby ul li:last-child:before {
-  display: none;
+.resume .resume_right ul li .references__contact {
+  display: block;
+  margin-top: -7px;
 }
 
 @media print {
@@ -256,7 +227,7 @@ body {
     height: 100vh;
   }
   .resume .resume_left,
-  .resume .resume_right,  {
+  .resume .resume_right {
     padding-top: 10%;
   }
 }
